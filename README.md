@@ -2,11 +2,15 @@
 
 This repo is a work in progress...
 
-Currently working: Gruvbox Dark
+**Currently working:** Gruvbox Dark
 
-## To-do:
+## To-Do:
 
 - [ ] Gruvbox Dark
 - [ ] Dracula
 - [ ] Dark One
 
+<br>
+
+### Gruvbox Dark
+![Gruvbox-Dark](./examples/gruv-dark.png)
