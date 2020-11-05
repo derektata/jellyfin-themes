@@ -1,4 +1,9 @@
-/* Import Fira Sans */
+/* 
+    ////////////////////////////////////////////////////////////////////
+        Import Custom Fonts
+    ////////////////////////////////////////////////////////////////////
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
@@ -33,6 +38,11 @@ span.material-icons.arrow_back, span.material-icons.home, span.material-icons.me
     color: #a89984;
 }
 
+/* Top Right Icons */
+span.material-icons.sync_disabled, span.material-icons.sync_enabled, span.material-icons.cast, span.material-icons.search, span.material-icons.person {
+  color: #a89984;
+}
+
  /* Background Color */
 .backgroundContainer, .dialog, html { background-color: #504945; }
 
@@ -47,6 +57,11 @@ span.material-icons.arrow_back, span.material-icons.home, span.material-icons.me
 
  /* General Page Custom Color */
 .dashboardGeneralForm { color: #a89984; }
+
+/* Record/Record Series Icon Color */
+span.material-icons.recordingIcon.fiber_manual_record, span.material-icons.recordingIcon.fiber_smart_record {
+  color: #cc241d;
+}
 
 /* 
     ////////////////////////////////////////////////////////////////////
@@ -95,3 +110,4 @@ div.channelPrograms {
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 .listItem-content {height: 115px;}
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
