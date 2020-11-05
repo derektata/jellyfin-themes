@@ -18,14 +18,31 @@ span.material-icons.arrow_back, span.material-icons.home, span.material-icons.me
  /* General Page Custom Color */
 .dashboardGeneralForm { color: #a89984; }
 
+
+
+/* Minimalist Login Form */
+
+/* Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+
+
+
  /* Guide - Date Active Color */
 button.emby-tab-button.guide-date-tab-button.emby-button.emby-tab-button-active {
-    color: #458588;
+    color: #fcfcfc;
 }
 
  /* Guide - Date Color */
 button.emby-tab-button.guide-date-tab-button.emby-button {
-    color: #45858875;
+    color: #fcfcfc75;
 }
 
  /* Guide - New Notification Color */
@@ -55,12 +72,8 @@ div.channelPrograms {
     background-color: #1d202175;
 }
 
-.cardContent-button,
-.itemDetailImage {
-  border-radius: 0.25em;
-}
-
 /*Size episode preview images in a more compact way*/
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 .listItem-content {height: 115px;}
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
