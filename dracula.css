@@ -35,29 +35,29 @@ html {
 
  /* Top Left Icons */
 span.material-icons.arrow_back, span.material-icons.home, span.material-icons.menu {
-    color: #a89984;
+    color: #f8f8f2;
 }
 
 /* Top Right Icons */
 span.material-icons.sync_disabled, span.material-icons.sync_enabled, span.material-icons.cast, span.material-icons.search, span.material-icons.person {
-  color: #a89984;
+  color: #f8f8f2;
 }
 
  /* Background Color */
-.backgroundContainer, .dialog, html { background-color: #504945; }
+.backgroundContainer, .dialog, html { background-color: #282a36; }
 
  /* Drawer Color */
 .skinHeader, .mainDrawer, .emby-input, .emby-textarea, .emby-select, .navMenuOption-selected, .cardBox, .paperList { background: #282828; }
 
  /* Console Panel Color */
-.mainDrawer-scrollContainer { color: #a89984; }
+.mainDrawer-scrollContainer { color: #f8f8f2; }
 
  /* General Page Custom Color */
-.dashboardGeneralForm { color: #a89984; }
+.dashboardGeneralForm { color: #f8f8f2; }
 
 /* Record/Record Series Icon Color */
 span.material-icons.recordingIcon.fiber_manual_record, span.material-icons.recordingIcon.fiber_smart_record {
-  color: #cc241d;
+  color: #ff5555;
 }
 
 /* 
@@ -78,24 +78,24 @@ button.emby-tab-button.guide-date-tab-button.emby-button {
 
  /* Guide - New Notification Color */
 span.newTvProgram.guideProgramIndicator, div.mediaInfoProgramAttribute.mediaInfoItem.newTvProgram { 
-    background-color: #689d6a;
-    color: #fff;
+    background-color: #50fa7b;
+    color: #44475a;
 }
 
  /* Guide - Play Button Color */
 button.raised.btnPlay.block.formDialogFooterItem.button-submit.emby-button {
-   background-color: #458588; 
-   color: #fff;
+   background-color: #8be9fd; 
+   color: #44475a;
 }
 
  /* Guide - Channel Cell Color */
 button.guide-channelHeaderCell.itemAction {
-    background-color: #665c54;
+    background-color: #6272a4;
 }
 
  /* Guide - Inactive Program Color */
 button.programCell.itemAction {
-    background-color: #928374;
+    background-color: #44475a;
 }
 
  /* Guide - Empty Program Color */

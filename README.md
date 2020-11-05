@@ -2,8 +2,6 @@
 
 This repo is a work in progress...
 
-**Currently working:** Gruvbox Dark
-
 ## To-Do:
 
 - [ ] Gruvbox Dark
@@ -12,11 +10,12 @@ This repo is a work in progress...
 
 <br>
 
-## Usage
-
-You can import the style sheet by putting this in the Custom CSS field.
-
-    import url('https://derektata.github.io/jellyfin-themes/gruvbox-dark.css')
-
 ### Gruvbox Dark
 ![Gruvbox-Dark](./examples/gruv-dark.png)
+
+    import url('https://derektata.github.io/jellyfin-themes/gruvbox-dark.css')
+    
+### Dracula
+![Dracula](./examples/dracula.png)
+
+    import url('https://derektata.github.io/jellyfin-themes/dracula.css')
