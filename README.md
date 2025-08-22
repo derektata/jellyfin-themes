@@ -4,8 +4,8 @@ This repo is a work in progress...
 
 ## To-Do:
 
-- [ ] Gruvbox Dark
-- [ ] Dracula
+- [X] Gruvbox Dark
+- [X] Dracula
 - [ ] Dark One
 
 <br>
@@ -13,9 +13,9 @@ This repo is a work in progress...
 ### Gruvbox Dark
 ![Gruvbox-Dark](./examples/gruv-dark.png)
 
-    import url('https://derektata.github.io/jellyfin-themes/gruvbox-dark.css')
+    @import url('https://derektata.github.io/jellyfin-themes/gruvbox-dark.css')
     
 ### Dracula
 ![Dracula](./examples/dracula.png)
 
-    import url('https://derektata.github.io/jellyfin-themes/dracula.css')
+    @import url('https://derektata.github.io/jellyfin-themes/dracula.css')
